@@ -1,7 +1,11 @@
 package edu.stevenfil.effectivejava.item2
 
 /**
- * <add class description here>
+ * Item 2: Builder over constructors.
+ *
+ * Shows the power of the builder pattern. This example
+ * uses a generic type builder Guitar, that gets specialized
+ * with two example classes Stratocaster and LesPauls.
  *
  * @author: Sven Fillinger
  */

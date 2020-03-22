@@ -1,6 +1,8 @@
 package edu.stevenfil.effectivejava.item1
 
 /**
+ * Item 1: Static Factory methods
+ *
  * Uses a static factory method to create different Car types.
  *
  * Each car type implements the interface Car, that provides basic
