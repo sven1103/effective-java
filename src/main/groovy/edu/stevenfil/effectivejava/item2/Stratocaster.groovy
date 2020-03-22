@@ -61,6 +61,7 @@ class Stratocaster extends Guitar{
     }
 
     def printConfiguration() {
+        println "Guitar type: Stratocaster"
         println "Number of strings: $strings"
         println "String brand: $stringBrand"
         println "Neck pickup: $neckPickup"

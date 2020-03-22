@@ -13,6 +13,14 @@ class Example {
                 .bodyMaterial(Guitar.BuildMaterial.ASH)
                 .setBridgePickup(Stratocaster.SINGLECOIL.BRAND2)
                 .build()
+        LesPauls myPaula = new LesPauls.Builder(Guitar.StringBrand.DADDARIO, 6)
+                .bodyMaterial(Guitar.BuildMaterial.IVORY)
+                .setNeckPickup(LesPauls.Humbucker.TYPE2)
+                .build()
+
+        myStrat.printConfiguration()
+        println "-------"
+        myPaula.printConfiguration()
     }
 
 }
