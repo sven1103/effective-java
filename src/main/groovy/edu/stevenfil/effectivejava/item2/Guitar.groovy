@@ -5,7 +5,7 @@ package edu.stevenfil.effectivejava.item2
  *
  * @author: Sven Fillinger
  */
-abstract class Guitar {
+abstract class Guitar implements ConfigurationConsolePrinter {
 
     enum StringBrand { ELIXIR, ERNIE, DADDARIO, GIBSON }
 

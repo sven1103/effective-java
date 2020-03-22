@@ -9,11 +9,10 @@ class Example {
 
     static void main(String[] args) {
 
-        Guitar myStrat = new Stratocaster.Builder()
-                .bodyMaterial("ivory")
+        Stratocaster myStrat = new Stratocaster.Builder(Guitar.StringBrand.GIBSON, 6)
+                .bodyMaterial(Guitar.BuildMaterial.ASH)
+                .setBridgePickup(Stratocaster.SINGLECOIL.BRAND2)
                 .build()
-
-
     }
 
 }

@@ -60,4 +60,12 @@ class Stratocaster extends Guitar{
         bridgePickup = builder.bridgePickup
     }
 
+    def printConfiguration() {
+        println "Number of strings: $strings"
+        println "String brand: $stringBrand"
+        println "Neck pickup: $neckPickup"
+        println "Bridge Pickup:  $bridgePickup"
+        println "Middle pickup: $middlePickup"
+    }
+
 }
