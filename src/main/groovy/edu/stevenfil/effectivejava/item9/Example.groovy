@@ -1,7 +1,7 @@
 package edu.stevenfil.effectivejava.item9
 
 /**
- * Use try-with-resources instead of try-finally
+ * Item 9: Use try-with-resources instead of try-finally
  *
  * @author: Sven Fillinger
  */
