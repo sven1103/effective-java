@@ -36,8 +36,5 @@ class Example {
 
         assert garage.size() == 3
         assert garage.contains(superFastRedFerrari)
-
-
     }
-
 }
