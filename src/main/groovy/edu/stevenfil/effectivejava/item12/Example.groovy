@@ -1,7 +1,7 @@
 package edu.stevenfil.effectivejava.item12
 
 /**
- * <add class description here>
+ * Item 12: Always override toString
  *
  * @author: Sven Fillinger
  */
