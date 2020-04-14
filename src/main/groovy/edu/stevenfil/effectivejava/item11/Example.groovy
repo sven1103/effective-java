@@ -1,7 +1,7 @@
 package edu.stevenfil.effectivejava.item11
 
 /**
- * <add class description here>
+ * Item 11: Always override hashCode when you override equals
  *
  * @author: Sven Fillinger
  */
